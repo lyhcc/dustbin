@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图", "图\图.vcxproj", "{B0BFDE89-168B-4E36-9052-2423C1BEBB00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Debug|x64.ActiveCfg = Debug|x64
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Debug|x64.Build.0 = Debug|x64
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Debug|x86.Build.0 = Debug|Win32
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Release|x64.ActiveCfg = Release|x64
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Release|x64.Build.0 = Release|x64
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Release|x86.ActiveCfg = Release|Win32
+		{B0BFDE89-168B-4E36-9052-2423C1BEBB00}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC8941C0-C574-46B4-9988-903BA2D68548}
+	EndGlobalSection
+EndGlobal

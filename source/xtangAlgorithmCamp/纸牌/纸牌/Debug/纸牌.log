@@ -1,0 +1,4 @@
+﻿  源.cpp
+c:\users\李远豪\source\repos\纸牌\纸牌\源.cpp(6): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\李远豪\source\repos\纸牌\纸牌\源.cpp(12): warning C4101: “ans”: 未引用的局部变量
+  纸牌.vcxproj -> c:\Users\李远豪\source\repos\纸牌\Debug\纸牌.exe

@@ -1,0 +1,48 @@
+#include<iostream>
+#include<vector>
+typedef long long ll;
+using namespace std;
+const int Mod = 1000003;
+vector<ll>table[Mod];
+int Hush(ll x)
+{
+	return x % Mod;
+}
+bool check(int op, ll x)
+{
+
+	int h = Hush(x);
+	vector<ll>::iterator ptr = table[h].end();
+	for (vector<ll>::iterator it = table[h].begin(); it != table[h].end(); it++)
+	{
+		if (*it==x) {
+			ptr = it; break;
+		}
+	}
+	if (op == 1) {
+		if(ptr == table[h].end()){
+			table[h].push_back(x);
+			return 1;
+		}
+		return 0;
+	}
+	else
+	{
+		if (ptr != table[h].end()) {
+			*ptr = table[h].back();
+			table[h].erase(ptr);
+			return 1;
+		}
+		return 0;
+	}
+}
+int main() {
+	int Q, op;
+	ll x;
+	scanf("%d", &Q);
+	while (Q--) {
+		scanf("%d%lld", &op, &x);
+		puts(check(op, x) ? "Succeeded" : "Failed");
+	}
+	return 0;
+}

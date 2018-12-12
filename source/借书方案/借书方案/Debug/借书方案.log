@@ -1,0 +1,8 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  源.cpp
+c:\users\李远豪\source\repos\借书方案\借书方案\源.cpp(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+c:\users\李远豪\source\repos\借书方案\借书方案\源.cpp(13): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“__int64”
+  c:\users\李远豪\source\repos\借书方案\借书方案\源.cpp(13): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\李远豪\source\repos\借书方案\借书方案\源.cpp(13): note: 请考虑在格式字符串中使用“%I64d”
+  借书方案.vcxproj -> C:\Users\李远豪\source\repos\借书方案\Debug\借书方案.exe

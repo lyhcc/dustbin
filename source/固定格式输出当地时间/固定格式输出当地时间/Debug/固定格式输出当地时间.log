@@ -1,0 +1,8 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  源.cpp
+c:\users\李远豪\source\repos\固定格式输出当地时间\固定格式输出当地时间\源.cpp(10): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\time.h(505): note: 参见“localtime”的声明
+c:\users\李远豪\source\repos\固定格式输出当地时间\固定格式输出当地时间\源.cpp(11): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“tm *”
+c:\users\李远豪\source\repos\固定格式输出当地时间\固定格式输出当地时间\源.cpp(12): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\time.h(116): note: 参见“asctime”的声明
+  固定格式输出当地时间.vcxproj -> C:\Users\李远豪\source\repos\固定格式输出当地时间\Debug\固定格式输出当地时间.exe

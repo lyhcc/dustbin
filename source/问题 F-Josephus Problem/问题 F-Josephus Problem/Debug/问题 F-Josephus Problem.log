@@ -1,0 +1,7 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  源.cpp
+c:\users\李远豪\source\repos\问题 f-josephus problem\问题 f-josephus problem\源.cpp(34): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+c:\users\李远豪\source\repos\问题 f-josephus problem\问题 f-josephus problem\源.cpp(42): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  问题 F-Josephus Problem.vcxproj -> C:\Users\李远豪\source\repos\问题 F-Josephus Problem\Debug\问题 F-Josephus Problem.exe
